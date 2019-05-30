@@ -3,10 +3,28 @@ body {
     margin: 0;
 }
 
-body.body {
-
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f0061;
 }
 
-body.body.nav {
+.nav ul li {
+    margin-left: 20px;
+    float: middle
+}
 
+.nav ul li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center
+}
+
+.nav ul li a:hover {
+    background-color: #290054;
 }
