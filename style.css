@@ -31,6 +31,17 @@ body {
     transition: .5s;
 }
 
+.nav ul li a.TuBL3 {
+    display: block;
+    padding: 8px;
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: .5s;
+    text-shadow: 0 0 2px whitesmoke;
+}
+
 .VhcpX {
     display: block;
     width: 45px;
@@ -41,12 +52,14 @@ body {
     margin-right: 40px;
 }
 
-.nav ul li a:hover {
+.nav ul li a.z1yP9:hover {
     background-color: #37007a;
+    text-shadow: 0 0 7px black;
 }
 
 #active {
     background-color: #260054;
+    text-shadow: 0 0 7px black;
 }
 
 #active:hover {
@@ -58,7 +71,8 @@ body {
     text-align: center;
     padding-top: 35px;
     font-size: 45px;
-    color: whitesmoke
+    color: whitesmoke;
+    text-shadow: 0 0 7px black;
 }
 
 .dE1fw {
@@ -88,6 +102,7 @@ body {
 .header2 ul li a.dE1fw {
     display: inline-block;
     color: whitesmoke;
+    text-shadow: 0 0 7px black;
 }
 
 #mB7Ex {
@@ -102,4 +117,5 @@ body {
 
 .dE1fw:hover {
     background-color: black;
+    text-shadow: 0 0 7px whitesmoke;
 }
