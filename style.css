@@ -11,17 +11,20 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: black;
-    /* border-bottom: 3px solid #000; */
 }
 
 .nav ul li.bzRDl {
     float: right
 }
 
+.nav ul li.yvMhe {
+    float: left
+}
+
 .nav ul li a.z1yP9 {
     display: block;
     padding: 8px;
-    color: white;
+    color: whitesmoke;
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
@@ -32,11 +35,10 @@ body {
     display: block;
     width: 45px;
     height: 45px;
-    padding-left: 20px;
 }
 
-#PINRS {
-    margin-right: 20px;
+#jpUrE {
+    margin-right: 40px;
 }
 
 .nav ul li a:hover {
@@ -49,4 +51,55 @@ body {
 
 #active:hover {
     background-color: #37007a;
+}
+
+.header {
+    background-color: #260054;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 45px;
+    color: whitesmoke
+}
+
+.dE1fw {
+    text-align: center;
+    background-color: #37007a;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 150px;
+    transition: .5s;
+}
+
+.header2 {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background-color: #260054;
+    font-size: 25px
+}
+
+.header2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header2 ul li a.dE1fw {
+    display: inline-block;
+    color: whitesmoke;
+}
+
+#mB7Ex {
+    margin-right: 5px;
+    padding: 5px;
+}
+
+#bfAPn {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.dE1fw:hover {
+    background-color: black;
 }
