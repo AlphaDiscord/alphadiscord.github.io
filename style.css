@@ -2,7 +2,7 @@ body {
     background-color: #37007a;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav ul {
@@ -35,8 +35,8 @@ body {
     padding-left: 20px;
 }
 
-.PINRS {
-    padding-right: 20px;
+#PINRS {
+    margin-right: 20px;
 }
 
 .nav ul li a:hover {
@@ -51,10 +51,28 @@ body {
     background-color: #37007a;
 }
 
+.connect {
+    background-color: #260054;
+    text-align: center;
+    padding: 50px ;
+    font-size: 50px;
+    color: white;
+}
+
+.KacDH {
+    color: white;
+    text-decoration: none;
+    transition: .4s ease-in-out;
+}
+
+.KacDH:hover {
+    text-shadow: 0 0 7px whitesmoke;
+}
+
 .welcome {
     background-color: #260054;
     text-align: center;
-    padding: 14px 16px;
+    padding: 50px ;
     font-size: 50px;
     color: white;
 }
