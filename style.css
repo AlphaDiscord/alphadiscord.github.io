@@ -1,8 +1,10 @@
 body {
-    background-color: #37007a;
+    /* background-color: #37007a; */
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(#37007a, #260054, black);
+    height: 2000px;
 }
 
 .nav ul {
@@ -53,21 +55,20 @@ body {
 }
 
 .nav ul li a.z1yP9:hover {
-    background-color: #37007a;
+    background-color: #260054;
     text-shadow: 0 0 7px black;
 }
 
 #active {
-    background-color: #260054;
+    background-color: #37007a;
     text-shadow: 0 0 7px black;
 }
 
 #active:hover {
-    background-color: #37007a;
+    background-color: #260054;
 }
 
 .header {
-    background-color: #260054;
     text-align: center;
     padding-top: 35px;
     font-size: 45px;
@@ -82,13 +83,13 @@ body {
     border-radius: 10px;
     width: 150px;
     transition: .5s;
+    border: 3px solid black;
 }
 
 .header2 {
     text-align: center;
     padding-bottom: 30px;
     padding-top: 20px;
-    background-color: #260054;
     font-size: 25px
 }
 
@@ -102,7 +103,7 @@ body {
 .header2 ul li a.dE1fw {
     display: inline-block;
     color: whitesmoke;
-    text-shadow: 0 0 7px black;
+    text-shadow: 0 0 2.4px;
 }
 
 #mB7Ex {
@@ -115,7 +116,11 @@ body {
     padding: 5px;
 }
 
-.dE1fw:hover {
-    background-color: black;
-    text-shadow: 0 0 7px whitesmoke;
+.header2 ul li a.dE1fw:hover {
+    background-color: #260054;
+}
+
+.quGpY {
+    /* background-color: #260054; */
+    /* background-image: linear-gradient(#260054, #37007a); */
 }
