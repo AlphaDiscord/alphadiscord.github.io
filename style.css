@@ -50,29 +50,3 @@ body {
 #active:hover {
     background-color: #37007a;
 }
-
-.connect {
-    background-color: #260054;
-    text-align: center;
-    padding: 50px ;
-    font-size: 50px;
-    color: white;
-}
-
-.KacDH {
-    color: white;
-    text-decoration: none;
-    transition: .4s ease-in-out;
-}
-
-.KacDH:hover {
-    text-shadow: 0 0 7px whitesmoke;
-}
-
-.welcome {
-    background-color: #260054;
-    text-align: center;
-    padding: 50px ;
-    font-size: 50px;
-    color: white;
-}
