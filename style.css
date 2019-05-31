@@ -2,6 +2,7 @@ body {
     background-color: #37007a;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .nav ul {
@@ -54,5 +55,6 @@ body {
     background-color: #260054;
     text-align: center;
     padding: 14px 16px;
-    font-size: 50px
+    font-size: 50px;
+    color: white;
 }
